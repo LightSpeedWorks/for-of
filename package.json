@@ -1,0 +1,25 @@
+{
+  "name": "for-of",
+  "version": "0.0.0",
+  "description": "for-of extension",
+  "main": "lib/for-of.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LightSpeedWorks/for-of.git"
+  },
+  "keywords": [
+    "for-of"
+  ],
+  "author": "LightSpeedC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LightSpeedWorks/for-of/issues"
+  },
+  "homepage": "https://github.com/LightSpeedWorks/for-of",
+  "dependencies": {
+    "new-generator": ">=0.0.1"
+  }
+}
