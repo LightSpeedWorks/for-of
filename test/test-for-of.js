@@ -8,7 +8,8 @@ try {
   var forOf = require('for-of');
 }
 
-forOf(Array, String, Number);
+// forOf(Array, String, Number);
+forOf(Object);
 
 for (var n of 3)
   console.log('for n of 3: n = %s', n);
@@ -63,3 +64,9 @@ for (var n of 3)
 for (var n of 3)
   for (var m of 3)
     console.log('for n, m of 3,3: = %s, %s', n, m);
+
+for (var gen = {x:1, y:'s2'}, res; res = gen.next(), !res.done; )
+  console.log('{x:1, y:\'s2\'}.next = %j', res.value);
+
+for (var e of {x:1, y:'s2'})
+  console.log('for e of {x:1, y:\'s2\'}: = %j', e);
