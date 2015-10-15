@@ -9,6 +9,9 @@
 Installation
 ------------
 
+[![NPM](https://nodei.co/npm/for-of.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/for-of/)
+[![NPM](https://nodei.co/npm-dl/for-of.png?height=2)](https://nodei.co/npm/for-of/)
+
 ```bash
 $ npm install for-of
 ```
